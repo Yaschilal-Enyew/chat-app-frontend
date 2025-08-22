@@ -1,0 +1,34 @@
+<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#4CAF50" />
+            <stop offset="100%" style="stop-color:#8BC34A" />
+        </linearGradient>
+    </defs>
+    
+    <g transform="translate(260, 20)">
+        <!-- The chat bubble icon filled with the green gradient -->
+        <rect x="0" y="0" width="80" height="80" rx="15" fill="url(#greenGradient)" />
+        <polygon points="20,80 20,95 40,80" fill="url(#greenGradient)" />
+
+        <!-- The eyes and mouth inside the icon -->
+        <circle cx="28" cy="30" r="4" fill="#FFFFFF" />
+        <circle cx="52" cy="30" r="4" fill="#FFFFFF" />
+        <path d="M28 50 C 40 65, 40 65, 52 50" stroke="#FFFFFF" stroke-width="4" fill="none" />
+    </g>
+
+    <!-- The AuraChat text positioned below the icon -->
+    <text
+        x="300"
+        y="150"
+        font-family="'Playfair Display', serif"
+        font-size="50"
+        font-weight="700"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        dominant-baseline="middle"
+    >
+        AuraChat
+    </text>
+</svg>
+
