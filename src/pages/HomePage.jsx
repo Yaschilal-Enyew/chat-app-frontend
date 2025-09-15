@@ -11,17 +11,16 @@ const HomePage = () => {
   const { authUser } = useContext(AuthContext);
 
   return (
-    <div className={`  border w-full h-screen sm:px-[15%] sm:py-[5%] ${authUser && 'backdrop-blur-2xl'}`}>
-      <div className={`grid h-full w-full border
-        ${selectedUser ? ' md:grid-cols-[1fr_1.5fr_1fr] xl:grid-cols-[1fr_2fr_1fr]' : 'md:grid-cols-2'}
-        `}>
-        <Sidebar />
-        <ChatContainer />
-        <RightSideBar  />
-        
-      </div>
-  
-    </div>
+    <div className="w-screen h-screen">
+  <div className={`grid h-full w-full
+    ${selectedUser ? 'md:grid-cols-[1fr_1.5fr_1fr] xl:grid-cols-[1fr_2fr_1fr]' : 'md:grid-cols-2'}
+    `}>
+    <Sidebar />
+    <ChatContainer />
+    <RightSideBar />
+  </div>
+</div>
+
   )
 }
 

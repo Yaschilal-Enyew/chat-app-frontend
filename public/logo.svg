@@ -1,0 +1,17 @@
+<svg width="250" height="70" viewBox="0 0 250 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFBF00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="250" height="70" rx="10" fill="#0A0F2B"/>
+
+  <path d="M25 40C25 40 25 35 30 35C35 35 40 40 40 40C40 40 40 30 30 30C20 30 20 40 20 40C20 40 20 50 30 50C40 50 45 45 45 45C45 45 45 50 40 50C35 50 30 55 30 55L25 60L25 40Z" fill="url(#goldGradient)"/>
+
+  <text x="55" y="47" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#goldGradient)">
+    ChatSphere
+  </text>
+</svg>
